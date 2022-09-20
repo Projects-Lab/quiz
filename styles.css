@@ -1,0 +1,60 @@
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background: green;
+    display: flex;
+    align-items: center;
+    border-radius: 1%;
+    padding: 1%;
+    margin-top: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagenlogo{
+    padding-left: 20px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.titulogo{
+    color: white;
+    text-decoration: none;
+}
+
+.links{
+    font-size: medium;
+
+}
+
+.alink{    
+    color: white;
+    font-size: large;
+    text-decoration: none;
+        
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sidebar{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+
+}
